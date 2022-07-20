@@ -53,9 +53,7 @@ table {
   box-sizing: border-box;
   /*   outline:1px solid; */
 }
-body {
-  font-family: 'Roboto', sans-serif;
-}
+
 
 img {
   vertical-align: middle;
@@ -72,6 +70,7 @@ h1 {
 header {
   background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png);
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   font-weight: bold;
   padding: 308px 0px;
