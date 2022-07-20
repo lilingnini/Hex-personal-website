@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /*   outline:1px solid; */
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 80px;
+  line-height: 106px;
+  margin-bottom: 32px;
+}
+header {
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 308px 0px;
+  margin: 0 auto;
+  list-style:none;
+}
+.header-box {
+  width: 320px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.header-content {
+  line-height: 42px;
+}
+.header-role {
+  line-height: 36px;
+}
+.header-media {
+  width: 304px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px 0 10px;
+}
+
+main {
+  text-align: center;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: bold;
+  padding: 56px 0px;
+}
+.main-info-content {
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+.border-top {
+  border-top: 1px solid black;
+}
+.main-work-box {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 28px;
+}
+.main-work-content {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.main-work-content-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background-color: #891818;
+  margin-right: 16px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 84px;
+}
+.brand-box {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 56px 0 160px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.brand-content-subtitle {
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+.brand-content-info {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
+}
+.brand-content-photo {
+  margin-bottom: 40px;
+}
+.brand-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.other-works {
+  text-align: center;
+  padding: 56px 0 144px 0;
+}
+.other-works-info {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+.other-works-box {
+  width: 1224px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+.other-works-content {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+.other-works-content-img {
+  margin-bottom: 16px;
+}
+.other-works-content-text {
+  font-size: 20px;
+  line-height: 42px;
+}
+.footer {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 64px 0 64px 0;
+}
+.footer li {
+  font-size: 24px;
+  line-height: 36px;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer a:hover {
+  color: #891818;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.pd-61 {
+  padding: 0px 61px;
+}
+.pt-28 {
+  padding-top: 28px;
+}
+
