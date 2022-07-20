@@ -69,8 +69,8 @@ h1 {
 }
 header {
   background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0 0;
   color: #ffffff;
   font-weight: bold;
   padding: 308px 0px;
