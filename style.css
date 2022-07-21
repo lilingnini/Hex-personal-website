@@ -50,6 +50,9 @@ header {
   justify-content: space-between;
   padding: 0 6px 0 10px;
 }
+.header-media a:hover{
+  opacity: 0.5;
+}
 
 main {
   text-align: center;
